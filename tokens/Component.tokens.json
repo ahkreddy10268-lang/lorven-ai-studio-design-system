@@ -1,0 +1,144 @@
+{
+ "btn": {
+  "primary-bg": {
+   "$type": "color",
+   "$value": "{action.primary}",
+   "$description": "Component token — Button / primary fill."
+  },
+  "primary-fg": {
+   "$type": "color",
+   "$value": "{text.on-action}",
+   "$description": "Component token — Button / primary label."
+  },
+  "secondary-bg": {
+   "$type": "color",
+   "$value": "{bg.control}",
+   "$description": "Component token — Button / secondary: filled neutral."
+  },
+  "secondary-hover": {
+   "$type": "color",
+   "$value": "{bg.control-hover}",
+   "$description": "Component token — Button / secondary hover."
+  },
+  "outline-border": {
+   "$type": "color",
+   "$value": "{border.strong}",
+   "$description": "Component token — Button / outline edge."
+  },
+  "ghost-hover": {
+   "$type": "color",
+   "$value": "{bg.hover}",
+   "$description": "Component token — Button / ghost and icon hover fill."
+  }
+ },
+ "input": {
+  "bg": {
+   "$type": "color",
+   "$value": "{bg.input}",
+   "$description": "Component token — TextField and Select fill."
+  },
+  "border": {
+   "$type": "color",
+   "$value": "{border.strong}",
+   "$description": "Component token — TextField outline at rest."
+  },
+  "border-invalid": {
+   "$type": "color",
+   "$value": "{status.error-fg}",
+   "$description": "Component token — TextField outline when invalid; always with a message."
+  }
+ },
+ "asset": {
+  "row-bg": {
+   "$type": "color",
+   "$value": "{bg.surface}",
+   "$description": "Component token — AssetRow fill."
+  },
+  "row-border": {
+   "$type": "color",
+   "$value": "{border.subtle}",
+   "$description": "Component token — AssetRow divider."
+  },
+  "row-selected-bg": {
+   "$type": "color",
+   "$value": "{bg.selected}",
+   "$description": "Component token — AssetRow selected fill."
+  },
+  "row-changed-mark": {
+   "$type": "color",
+   "$value": "{text.link}",
+   "$description": "Component token — AssetRow 'recently changed' leading mark (with text 'Changed')."
+  }
+ },
+ "context": {
+  "bar-bg": {
+   "$type": "color",
+   "$value": "{bg.recessed}",
+   "$description": "Component token — ContextBar fill inside a product workspace."
+  }
+ },
+ "decision": {
+  "band-bg": {
+   "$type": "color",
+   "$value": "{bg.raised}",
+   "$description": "Component token — DecisionBand fill."
+  }
+ },
+ "dialog": {
+  "bg": {
+   "$type": "color",
+   "$value": "{bg.overlay}",
+   "$description": "Component token — ConfirmDialog panel."
+  },
+  "scrim": {
+   "$type": "color",
+   "$value": "{scrim}",
+   "$description": "Component token — Backdrop behind dialogs and the command menu."
+  }
+ },
+ "sidebar": {
+  "bg": {
+   "$type": "color",
+   "$value": "{bg.shell}",
+   "$description": "Component token — AppSidebar fill."
+  }
+ },
+ "composer": {
+  "bg": {
+   "$type": "color",
+   "$value": "{bg.input}",
+   "$description": "Component token — PromptComposer field fill."
+  }
+ },
+ "frame": {
+  "letterbox": {
+   "$type": "color",
+   "$value": "{bg.recessed}",
+   "$description": "Component token — StoryboardFrame matte around artwork."
+  }
+ },
+ "switch": {
+  "track-off": {
+   "$type": "color",
+   "$value": "{border.strong}",
+   "$description": "Component token — Switch track when off — reuses the control-edge colour so the off state meets 3:1."
+  },
+  "track-on": {
+   "$type": "color",
+   "$value": "{action.primary}",
+   "$description": "Component token — Switch track when on."
+  },
+  "thumb": {
+   "$type": "color",
+   "$value": "{bg.plate}",
+   "$description": "Component token — Switch knob in both states and themes."
+  }
+ },
+ "lockup": {
+  "plate": {
+   "$type": "color",
+   "$value": "{bg.plate}",
+   "$description": "Component token — Plate behind black product lockups on dark surfaces."
+  }
+ }
+}

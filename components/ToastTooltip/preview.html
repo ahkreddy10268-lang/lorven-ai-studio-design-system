@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ToastTooltip · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><div class="l-toast" role="status"><span data-icon="check" data-size="20"></span><span class="l-toast__msg">Frame 3.04 replaced with option A.</span><button>Undo</button><button class="l-toast__close" aria-label="Dismiss"><span data-icon="close" data-size="16"></span></button></div>
+<div class="l-toast" role="alert"><span data-icon="error" data-size="20"></span><span class="l-toast__msg">Export failed. Your frames are unchanged.</span><button>Retry</button></div>
+<div class="ds-row" style="gap:var(--space-8);padding-top:var(--space-4)"><span class="l-tip" role="tooltip">Generate frames<span class="l-kbd">G</span></span><span class="l-tip l-tip--right" role="tooltip">Cine Flow is in early access</span></div></div><div data-theme="dark"><div class="l-toast" role="status"><span data-icon="check" data-size="20"></span><span class="l-toast__msg">Frame 3.04 replaced with option A.</span><button>Undo</button><button class="l-toast__close" aria-label="Dismiss"><span data-icon="close" data-size="16"></span></button></div>
+<div class="l-toast" role="alert"><span data-icon="error" data-size="20"></span><span class="l-toast__msg">Export failed. Your frames are unchanged.</span><button>Retry</button></div>
+<div class="ds-row" style="gap:var(--space-8);padding-top:var(--space-4)"><span class="l-tip" role="tooltip">Generate frames<span class="l-kbd">G</span></span><span class="l-tip l-tip--right" role="tooltip">Cine Flow is in early access</span></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

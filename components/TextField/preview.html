@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TextField · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><label class="l-field"><span class="l-field__label">Scene title</span><span class="l-input"><input value="The brine channel"></span></label>
+<label class="l-field"><span class="l-field__label">Search the project</span><span class="l-input is-focus"><span data-icon="search" data-size="16"></span><input placeholder="Scenes, shots, frames…"><span class="l-kbd">/</span></span></label>
+<label class="l-field"><span class="l-field__label">Shot number</span><span class="l-input is-invalid"><input value="12A-" aria-invalid="true"></span><span class="l-field__help l-field__help--error"><span data-icon="error" data-size="16"></span>Use a number and optional letter, like 12A.</span></label>
+<label class="l-field"><span class="l-field__label">Note to reviewer <span class="l-field__opt">(optional)</span></span><span class="l-input l-input--area"><textarea rows="2">Matched by scene number; frames 3–4 may need a new angle.</textarea></span><span class="l-field__help">Visible to everyone on this project.</span></label>
+<label class="l-field"><span class="l-field__label">Source version</span><span class="l-input is-readonly"><span data-icon="lock" data-size="16"></span><input value="Screenplay v7 · locked" readonly></span></label>
+<label class="l-field"><span class="l-field__label">Owner</span><span class="l-input is-disabled"><input value="Assigned by producer" disabled></span></label></div><div data-theme="dark"><label class="l-field"><span class="l-field__label">Scene title</span><span class="l-input"><input value="The brine channel"></span></label>
+<label class="l-field"><span class="l-field__label">Search the project</span><span class="l-input is-focus"><span data-icon="search" data-size="16"></span><input placeholder="Scenes, shots, frames…"><span class="l-kbd">/</span></span></label>
+<label class="l-field"><span class="l-field__label">Shot number</span><span class="l-input is-invalid"><input value="12A-" aria-invalid="true"></span><span class="l-field__help l-field__help--error"><span data-icon="error" data-size="16"></span>Use a number and optional letter, like 12A.</span></label>
+<label class="l-field"><span class="l-field__label">Note to reviewer <span class="l-field__opt">(optional)</span></span><span class="l-input l-input--area"><textarea rows="2">Matched by scene number; frames 3–4 may need a new angle.</textarea></span><span class="l-field__help">Visible to everyone on this project.</span></label>
+<label class="l-field"><span class="l-field__label">Source version</span><span class="l-input is-readonly"><span data-icon="lock" data-size="16"></span><input value="Screenplay v7 · locked" readonly></span></label>
+<label class="l-field"><span class="l-field__label">Owner</span><span class="l-input is-disabled"><input value="Assigned by producer" disabled></span></label></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

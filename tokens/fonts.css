@@ -1,0 +1,3 @@
+/* Fonts. Switzer via Fontshare's API (the licence-compliant delivery route: the font files must not be redistributed or self-hosted without ITF consent). Geist is the licensed fallback. */
+@import url("https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap");

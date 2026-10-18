@@ -1,0 +1,1332 @@
+{
+ "name": "Lorven AI Studio",
+ "version": 1,
+ "color": {
+  "themes": [
+   {
+    "id": "light",
+    "name": "Light"
+   },
+   {
+    "id": "dark",
+    "name": "Dark"
+   }
+  ],
+  "tokens": [
+   {
+    "name": "slate-0",
+    "value": "#ffffff",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-25",
+    "value": "#f4f7fb",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-50",
+    "value": "#f5f7fa",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-100",
+    "value": "#edf1f6",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-150",
+    "value": "#e2e8f0",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-200",
+    "value": "#d5dde7",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-250",
+    "value": "#c3cedb",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-300",
+    "value": "#aab7c9",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-350",
+    "value": "#94a3b8",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-400",
+    "value": "#7d8ca3",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-500",
+    "value": "#63748e",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-550",
+    "value": "#56677f",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-600",
+    "value": "#4a5a70",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-650",
+    "value": "#40516a",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-700",
+    "value": "#2d3c52",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-750",
+    "value": "#24354d",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-800",
+    "value": "#1b2940",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-850",
+    "value": "#111c2d",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-875",
+    "value": "#0d1626",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-900",
+    "value": "#0b1220",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "slate-950",
+    "value": "#080f1e",
+    "usage": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+   },
+   {
+    "name": "blue-50",
+    "value": "#eff5ff",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-100",
+    "value": "#dbe8fe",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-200",
+    "value": "#bfd6fe",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-300",
+    "value": "#93c0fd",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-400",
+    "value": "#60a5fa",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-500",
+    "value": "#3b82f6",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-600",
+    "value": "#2563eb",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-700",
+    "value": "#1d4ed8",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-800",
+    "value": "#1e40af",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-900",
+    "value": "#152d55",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "blue-925",
+    "value": "#192e4d",
+    "usage": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+   },
+   {
+    "name": "scrim-light",
+    "value": "#0b12207a",
+    "usage": "Primitive overlay colours (8-digit hex: navy at 48% and 72%). Only for the scrim behind dialogs."
+   },
+   {
+    "name": "scrim-dark",
+    "value": "#020610b8",
+    "usage": "Primitive overlay colours (8-digit hex: navy at 48% and 72%). Only for the scrim behind dialogs."
+   },
+   {
+    "name": "sky-100",
+    "value": "#e0f2fe",
+    "usage": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+   },
+   {
+    "name": "sky-300",
+    "value": "#7dd3fc",
+    "usage": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+   },
+   {
+    "name": "sky-700",
+    "value": "#075985",
+    "usage": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+   },
+   {
+    "name": "sky-900",
+    "value": "#0c3048",
+    "usage": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+   },
+   {
+    "name": "green-100",
+    "value": "#dcfce7",
+    "usage": "Primitive for Approved and success only."
+   },
+   {
+    "name": "green-300",
+    "value": "#6ee7a5",
+    "usage": "Primitive for Approved and success only."
+   },
+   {
+    "name": "green-700",
+    "value": "#166534",
+    "usage": "Primitive for Approved and success only."
+   },
+   {
+    "name": "green-800",
+    "value": "#14532d",
+    "usage": "Primitive for Approved and success only."
+   },
+   {
+    "name": "green-900",
+    "value": "#0f3a2a",
+    "usage": "Primitive for Approved and success only."
+   },
+   {
+    "name": "orange-100",
+    "value": "#ffedd5",
+    "usage": "Primitive for Changes requested only."
+   },
+   {
+    "name": "orange-300",
+    "value": "#fdba74",
+    "usage": "Primitive for Changes requested only."
+   },
+   {
+    "name": "orange-700",
+    "value": "#9a3412",
+    "usage": "Primitive for Changes requested only."
+   },
+   {
+    "name": "orange-900",
+    "value": "#45230f",
+    "usage": "Primitive for Changes requested only."
+   },
+   {
+    "name": "amber-100",
+    "value": "#fef3c7",
+    "usage": "Primitive for Check (currency) and warnings."
+   },
+   {
+    "name": "amber-300",
+    "value": "#f5b94a",
+    "usage": "Primitive for Check (currency) and warnings."
+   },
+   {
+    "name": "amber-600",
+    "value": "#b45309",
+    "usage": "Primitive for Check (currency) and warnings."
+   },
+   {
+    "name": "amber-700",
+    "value": "#92400e",
+    "usage": "Primitive for Check (currency) and warnings."
+   },
+   {
+    "name": "amber-900",
+    "value": "#3b2a0c",
+    "usage": "Primitive for Check (currency) and warnings."
+   },
+   {
+    "name": "red-100",
+    "value": "#fee2e2",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "red-300",
+    "value": "#f87171",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "red-600",
+    "value": "#dc2626",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "red-700",
+    "value": "#b91c1c",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "red-800",
+    "value": "#991b1b",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "red-900",
+    "value": "#4a1515",
+    "usage": "Primitive for Outdated, errors and destructive actions."
+   },
+   {
+    "name": "brand-gold",
+    "value": "#e1c261",
+    "usage": "Sampled from the master logo (lorven logo-01.svg, gold gradient on the E; mid stop). Brand surfaces only (studio shell, cover, marketing); never an interface state."
+   },
+   {
+    "name": "brand-gold-deep",
+    "value": "#b07908",
+    "usage": "Sampled from the master logo gold gradient (dark end). Brand surfaces on light grounds where brand-gold lacks contrast."
+   },
+   {
+    "name": "brand-orange",
+    "value": "#ee7a43",
+    "usage": "Sampled from the master logo (STUDIO gradient start). Brand surfaces only; never a status or action colour."
+   },
+   {
+    "name": "brand-red",
+    "value": "#c1272d",
+    "usage": "Sampled from the master logo (STUDIO gradient end). Brand surfaces only; never error or destructive."
+   },
+   {
+    "name": "brand-cyan",
+    "value": "#00bdff",
+    "usage": "Sampled from the four product lockups (icon disc). Belongs to the official marks; the UI's own interaction colour is the deeper cine ramp on the same hue."
+   },
+   {
+    "name": "bg-canvas",
+    "value": {
+     "light": "{slate-50}",
+     "dark": "{slate-900}"
+    },
+    "usage": "App background behind panels."
+   },
+   {
+    "name": "bg-surface",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-850}"
+    },
+    "usage": "Default working surface: panels, lists, editors. Body text sits here."
+   },
+   {
+    "name": "bg-raised",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-800}"
+    },
+    "usage": "Raised panels and filled secondary controls. Light separates with shadow-raised; dark with a lightness step."
+   },
+   {
+    "name": "bg-recessed",
+    "value": {
+     "light": "{slate-100}",
+     "dark": "{slate-875}"
+    },
+    "usage": "Recessed wells: context bar, letterbox, code and technical content."
+   },
+   {
+    "name": "bg-overlay",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-800}"
+    },
+    "usage": "Menus, popovers, dialogs (with border-default and shadow-overlay)."
+   },
+   {
+    "name": "bg-hover",
+    "value": {
+     "light": "{slate-150}",
+     "dark": "{slate-750}"
+    },
+    "usage": "Hover fill for rows, menu items, ghost and icon buttons."
+   },
+   {
+    "name": "bg-selected",
+    "value": {
+     "light": "{blue-50}",
+     "dark": "{blue-925}"
+    },
+    "usage": "Selected row or item; always with border-selected."
+   },
+   {
+    "name": "bg-inverse",
+    "value": {
+     "light": "{slate-900}",
+     "dark": "{slate-25}"
+    },
+    "usage": "Tooltips and toasts."
+   },
+   {
+    "name": "bg-control",
+    "value": {
+     "light": "{slate-200}",
+     "dark": "{slate-700}"
+    },
+    "usage": "Filled neutral controls: secondary buttons, filter chips, segmented tracks. One step beyond bg-hover so a control stays visible inside a hovered row. Labels on it use text-primary or text-secondary, never text-muted."
+   },
+   {
+    "name": "bg-control-hover",
+    "value": {
+     "light": "{slate-250}",
+     "dark": "{slate-650}"
+    },
+    "usage": "Hover on bg-control. Labels on it are text-primary."
+   },
+   {
+    "name": "bg-plate",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-0}"
+    },
+    "usage": "Pure white plate in both themes: behind black product lockups on dark grounds, and the knob of switches."
+   },
+   {
+    "name": "bg-input",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-875}"
+    },
+    "usage": "Text fields and selects at rest — a step below the surface in dark so fields read as wells, not cards."
+   },
+   {
+    "name": "bg-code",
+    "value": {
+     "light": "{slate-100}",
+     "dark": "{slate-950}"
+    },
+    "usage": "Code and technical blocks."
+   },
+   {
+    "name": "bg-shell",
+    "value": {
+     "light": "{slate-950}",
+     "dark": "{slate-950}"
+    },
+    "usage": "Studio shell: sidebar and global navigation, deep navy in both themes so the workspace reads as a lit stage."
+   },
+   {
+    "name": "shell-text",
+    "value": {
+     "light": "{slate-25}",
+     "dark": "{slate-25}"
+    },
+    "usage": "Labels on bg-shell, shell-hover and shell-selected."
+   },
+   {
+    "name": "shell-text-muted",
+    "value": {
+     "light": "{slate-350}",
+     "dark": "{slate-350}"
+    },
+    "usage": "Group headings and secondary labels on bg-shell."
+   },
+   {
+    "name": "shell-hover",
+    "value": {
+     "light": "{slate-850}",
+     "dark": "{slate-850}"
+    },
+    "usage": "Hover fill for shell navigation items."
+   },
+   {
+    "name": "shell-selected",
+    "value": {
+     "light": "{blue-925}",
+     "dark": "{blue-925}"
+    },
+    "usage": "Current navigation item on bg-shell; paired with shell-indicator."
+   },
+   {
+    "name": "shell-indicator",
+    "value": {
+     "light": "{blue-400}",
+     "dark": "{blue-400}"
+    },
+    "usage": "2px current-item indicator and focus ring in the shell."
+   },
+   {
+    "name": "shell-border",
+    "value": {
+     "light": "{slate-850}",
+     "dark": "{slate-850}"
+    },
+    "usage": "Divider inside the shell and between shell and workspace."
+   },
+   {
+    "name": "text-primary",
+    "value": {
+     "light": "{slate-900}",
+     "dark": "{slate-25}"
+    },
+    "usage": "Headings and body on every bg-* surface."
+   },
+   {
+    "name": "text-secondary",
+    "value": {
+     "light": "{slate-600}",
+     "dark": "{slate-300}"
+    },
+    "usage": "Metadata and supporting copy on every bg-* surface."
+   },
+   {
+    "name": "text-muted",
+    "value": {
+     "light": "{slate-550}",
+     "dark": "{slate-350}"
+    },
+    "usage": "Tertiary labels and timestamps on surface, raised, canvas, hover and selected (≥4.5:1)."
+   },
+   {
+    "name": "text-disabled",
+    "value": {
+     "light": "{slate-350}",
+     "dark": "{slate-500}"
+    },
+    "usage": "Disabled labels; exempt from contrast minimums (WCAG 1.4.3). Pair with a reason nearby."
+   },
+   {
+    "name": "text-inverse",
+    "value": {
+     "light": "{slate-25}",
+     "dark": "{slate-900}"
+    },
+    "usage": "Text on bg-inverse."
+   },
+   {
+    "name": "text-on-action",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-0}"
+    },
+    "usage": "Label on action-primary, its hover and pressed fills."
+   },
+   {
+    "name": "text-link",
+    "value": {
+     "light": "{blue-700}",
+     "dark": "{blue-400}"
+    },
+    "usage": "Links and source references on any bg-* surface."
+   },
+   {
+    "name": "border-subtle",
+    "value": {
+     "light": "{slate-150}",
+     "dark": "{slate-750}"
+    },
+    "usage": "Row dividers and section separators. Decorative only."
+   },
+   {
+    "name": "border-default",
+    "value": {
+     "light": "{slate-200}",
+     "dark": "{slate-700}"
+    },
+    "usage": "Panel, card, menu and dialog outlines."
+   },
+   {
+    "name": "border-strong",
+    "value": {
+     "light": "{slate-400}",
+     "dark": "{slate-500}"
+    },
+    "usage": "Control boundaries (inputs, outline buttons, checkboxes); ≥3:1 on surface, raised and input."
+   },
+   {
+    "name": "border-selected",
+    "value": {
+     "light": "{blue-600}",
+     "dark": "{blue-400}"
+    },
+    "usage": "Selected item edge; ≥3:1 on surface and selected."
+   },
+   {
+    "name": "action-primary",
+    "value": {
+     "light": "{blue-600}",
+     "dark": "{blue-600}"
+    },
+    "usage": "Primary action fill, active tab indicator, checked controls. One primary action per view."
+   },
+   {
+    "name": "action-primary-hover",
+    "value": {
+     "light": "{blue-700}",
+     "dark": "{blue-700}"
+    },
+    "usage": "Hover on action-primary."
+   },
+   {
+    "name": "action-primary-pressed",
+    "value": {
+     "light": "{blue-800}",
+     "dark": "{blue-800}"
+    },
+    "usage": "Pressed on action-primary."
+   },
+   {
+    "name": "action-primary-subtle",
+    "value": {
+     "light": "{blue-50}",
+     "dark": "{blue-900}"
+    },
+    "usage": "Tinted fill for selected toggles and subtle primary emphasis."
+   },
+   {
+    "name": "action-destructive",
+    "value": {
+     "light": "{red-700}",
+     "dark": "{red-600}"
+    },
+    "usage": "Destructive fill (delete, discard). Pair with text-on-destructive."
+   },
+   {
+    "name": "text-on-destructive",
+    "value": {
+     "light": "{slate-0}",
+     "dark": "{slate-0}"
+    },
+    "usage": "Label on action-destructive."
+   },
+   {
+    "name": "focus-ring",
+    "value": {
+     "light": "{blue-600}",
+     "dark": "{blue-400}"
+    },
+    "usage": "2px solid focus ring with 2px offset; ≥3:1 on every surface."
+   },
+   {
+    "name": "skeleton",
+    "value": {
+     "light": "{slate-150}",
+     "dark": "{slate-750}"
+    },
+    "usage": "Loading placeholders."
+   },
+   {
+    "name": "status-draft-fg",
+    "value": {
+     "light": "{slate-600}",
+     "dark": "{slate-300}"
+    },
+    "usage": "Draft chip label and icon on status-draft-bg."
+   },
+   {
+    "name": "status-draft-bg",
+    "value": {
+     "light": "{slate-100}",
+     "dark": "{slate-750}"
+    },
+    "usage": "Draft chip fill."
+   },
+   {
+    "name": "status-review-fg",
+    "value": {
+     "light": "{sky-700}",
+     "dark": "{sky-300}"
+    },
+    "usage": "In review chip label and icon on status-review-bg."
+   },
+   {
+    "name": "status-review-bg",
+    "value": {
+     "light": "{sky-100}",
+     "dark": "{sky-900}"
+    },
+    "usage": "In review chip fill."
+   },
+   {
+    "name": "status-approved-fg",
+    "value": {
+     "light": "{green-700}",
+     "dark": "{green-300}"
+    },
+    "usage": "Approved chip label and icon on status-approved-bg."
+   },
+   {
+    "name": "status-approved-bg",
+    "value": {
+     "light": "{green-100}",
+     "dark": "{green-900}"
+    },
+    "usage": "Approved chip fill."
+   },
+   {
+    "name": "status-changes-fg",
+    "value": {
+     "light": "{orange-700}",
+     "dark": "{orange-300}"
+    },
+    "usage": "Changes requested chip label and icon on status-changes-bg."
+   },
+   {
+    "name": "status-changes-bg",
+    "value": {
+     "light": "{orange-100}",
+     "dark": "{orange-900}"
+    },
+    "usage": "Changes requested chip fill."
+   },
+   {
+    "name": "status-check-fg",
+    "value": {
+     "light": "{amber-700}",
+     "dark": "{amber-300}"
+    },
+    "usage": "Check (currency) and warning text on surface/raised. Outline chip."
+   },
+   {
+    "name": "status-check-border",
+    "value": {
+     "light": "{amber-600}",
+     "dark": "{amber-300}"
+    },
+    "usage": "Check outline and warning alert border; ≥3:1 on surface."
+   },
+   {
+    "name": "status-outdated-fg",
+    "value": {
+     "light": "{red-700}",
+     "dark": "{red-300}"
+    },
+    "usage": "Outdated (currency) text on surface/raised. Outline chip."
+   },
+   {
+    "name": "status-outdated-border",
+    "value": {
+     "light": "{red-600}",
+     "dark": "{red-300}"
+    },
+    "usage": "Outdated outline and error alert border; ≥3:1 on surface."
+   },
+   {
+    "name": "status-error-fg",
+    "value": {
+     "light": "{red-700}",
+     "dark": "{red-300}"
+    },
+    "usage": "Validation and error text on surface."
+   },
+   {
+    "name": "status-success-fg",
+    "value": {
+     "light": "{green-700}",
+     "dark": "{green-300}"
+    },
+    "usage": "Confirmation text on surface."
+   },
+   {
+    "name": "status-info-fg",
+    "value": {
+     "light": "{sky-700}",
+     "dark": "{sky-300}"
+    },
+    "usage": "Information alert text and icon on surface."
+   },
+   {
+    "name": "status-info-border",
+    "value": {
+     "light": "{sky-700}",
+     "dark": "{sky-300}"
+    },
+    "usage": "Information alert border; ≥3:1 on surface."
+   },
+   {
+    "name": "scrim",
+    "value": {
+     "light": "{scrim-light}",
+     "dark": "{scrim-dark}"
+    },
+    "usage": "Overlay behind dialogs and the command menu."
+   },
+   {
+    "name": "btn-primary-bg",
+    "value": "{action-primary}",
+    "usage": "Component token — Button / primary fill."
+   },
+   {
+    "name": "btn-primary-fg",
+    "value": "{text-on-action}",
+    "usage": "Component token — Button / primary label."
+   },
+   {
+    "name": "btn-secondary-bg",
+    "value": "{bg-control}",
+    "usage": "Component token — Button / secondary: filled neutral."
+   },
+   {
+    "name": "btn-secondary-hover",
+    "value": "{bg-control-hover}",
+    "usage": "Component token — Button / secondary hover."
+   },
+   {
+    "name": "btn-outline-border",
+    "value": "{border-strong}",
+    "usage": "Component token — Button / outline edge."
+   },
+   {
+    "name": "btn-ghost-hover",
+    "value": "{bg-hover}",
+    "usage": "Component token — Button / ghost and icon hover fill."
+   },
+   {
+    "name": "input-bg",
+    "value": "{bg-input}",
+    "usage": "Component token — TextField and Select fill."
+   },
+   {
+    "name": "input-border",
+    "value": "{border-strong}",
+    "usage": "Component token — TextField outline at rest."
+   },
+   {
+    "name": "input-border-invalid",
+    "value": "{status-error-fg}",
+    "usage": "Component token — TextField outline when invalid; always with a message."
+   },
+   {
+    "name": "asset-row-bg",
+    "value": "{bg-surface}",
+    "usage": "Component token — AssetRow fill."
+   },
+   {
+    "name": "asset-row-border",
+    "value": "{border-subtle}",
+    "usage": "Component token — AssetRow divider."
+   },
+   {
+    "name": "asset-row-selected-bg",
+    "value": "{bg-selected}",
+    "usage": "Component token — AssetRow selected fill."
+   },
+   {
+    "name": "asset-row-changed-mark",
+    "value": "{text-link}",
+    "usage": "Component token — AssetRow 'recently changed' leading mark (with text 'Changed')."
+   },
+   {
+    "name": "context-bar-bg",
+    "value": "{bg-recessed}",
+    "usage": "Component token — ContextBar fill inside a product workspace."
+   },
+   {
+    "name": "decision-band-bg",
+    "value": "{bg-raised}",
+    "usage": "Component token — DecisionBand fill."
+   },
+   {
+    "name": "dialog-bg",
+    "value": "{bg-overlay}",
+    "usage": "Component token — ConfirmDialog panel."
+   },
+   {
+    "name": "dialog-scrim",
+    "value": "{scrim}",
+    "usage": "Component token — Backdrop behind dialogs and the command menu."
+   },
+   {
+    "name": "sidebar-bg",
+    "value": "{bg-shell}",
+    "usage": "Component token — AppSidebar fill."
+   },
+   {
+    "name": "composer-bg",
+    "value": "{bg-input}",
+    "usage": "Component token — PromptComposer field fill."
+   },
+   {
+    "name": "frame-letterbox",
+    "value": "{bg-recessed}",
+    "usage": "Component token — StoryboardFrame matte around artwork."
+   },
+   {
+    "name": "switch-track-off",
+    "value": "{border-strong}",
+    "usage": "Component token — Switch track when off — reuses the control-edge colour so the off state meets 3:1."
+   },
+   {
+    "name": "switch-track-on",
+    "value": "{action-primary}",
+    "usage": "Component token — Switch track when on."
+   },
+   {
+    "name": "switch-thumb",
+    "value": "{bg-plate}",
+    "usage": "Component token — Switch knob in both states and themes."
+   },
+   {
+    "name": "lockup-plate",
+    "value": "{bg-plate}",
+    "usage": "Component token — Plate behind black product lockups on dark surfaces."
+   }
+  ]
+ },
+ "type": {
+  "fonts": [
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Variable.woff2",
+    "weight": "100 900",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-VariableItalic.woff2",
+    "weight": "100 900",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Black (4).otf",
+    "weight": "900",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Black Italic",
+    "file": "fonts/Switzer-BlackItalic (4).otf",
+    "weight": "900",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Bold (4).otf",
+    "weight": "700",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Bold Italic",
+    "file": "fonts/Switzer-BoldItalic (4).otf",
+    "weight": "700",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Extrabold (4).otf",
+    "weight": "800",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Extrabold Italic",
+    "file": "fonts/Switzer-ExtraboldItalic (4).otf",
+    "weight": "800",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Extralight (4).otf",
+    "weight": "200",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Extralight Italic",
+    "file": "fonts/Switzer-ExtralightItalic (4).otf",
+    "weight": "200",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Italic (4).otf",
+    "weight": "400",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Light (4).otf",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Light Italic",
+    "file": "fonts/Switzer-LightItalic (4).otf",
+    "weight": "300",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Medium (4).otf",
+    "weight": "500",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Medium Italic",
+    "file": "fonts/Switzer-MediumItalic (4).otf",
+    "weight": "500",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Regular (4).otf",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Semibold (4).otf",
+    "weight": "600",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Semibold Italic",
+    "file": "fonts/Switzer-SemiboldItalic (4).otf",
+    "weight": "600",
+    "style": "italic"
+   },
+   {
+    "family": "Switzer",
+    "file": "fonts/Switzer-Thin (4).otf",
+    "weight": "100",
+    "style": "normal"
+   },
+   {
+    "family": "Switzer Thin Italic",
+    "file": "fonts/Switzer-ThinItalic (4).otf",
+    "weight": "100",
+    "style": "italic"
+   }
+  ],
+  "families": {
+   "sans": "Switzer, \"Helvetica Neue\", Arial, sans-serif",
+   "brand": "Nexa, Switzer, sans-serif",
+   "script": "\"Courier Prime\", \"Courier New\", Courier, monospace",
+   "mono": "\"Geist Mono\", ui-monospace, Menlo, monospace"
+  },
+  "groups": [
+   {
+    "name": "Interface",
+    "family": "sans",
+    "styles": [
+     {
+      "name": "display",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.02em",
+      "sample": "The Salt Orchard",
+      "usage": "Project title on the overview only. One per screen."
+     },
+     {
+      "name": "title-1",
+      "fontSize": "28px",
+      "lineHeight": "34px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.015em",
+      "sample": "Review screenplay changes",
+      "usage": "Page title in a product workspace."
+     },
+     {
+      "name": "title-2",
+      "fontSize": "20px",
+      "lineHeight": "26px",
+      "fontWeight": 600,
+      "letterSpacing": "-0.01em",
+      "sample": "4 scenes changed in v7",
+      "usage": "Section and dialog titles."
+     },
+     {
+      "name": "title-3",
+      "fontSize": "16px",
+      "lineHeight": "22px",
+      "fontWeight": 600,
+      "sample": "Storyboard — Sequence 3",
+      "usage": "Asset names, panel headers."
+     },
+     {
+      "name": "body-lg",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "fontWeight": 400,
+      "sample": "Approved work stays approved when its source changes; it is marked Outdated instead.",
+      "usage": "Long-form explanatory copy, empty states."
+     },
+     {
+      "name": "body",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "fontWeight": 400,
+      "sample": "Built from Screenplay v6. The current version is v7.",
+      "usage": "Default UI text."
+     },
+     {
+      "name": "label",
+      "fontSize": "13px",
+      "lineHeight": "16px",
+      "fontWeight": 500,
+      "sample": "Approve match",
+      "usage": "Buttons, tabs, form labels, chips."
+     },
+     {
+      "name": "caption",
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "fontWeight": 400,
+      "sample": "Edited by Meera · 2 h ago",
+      "usage": "Timestamps and secondary metadata. Never below 12px."
+     },
+     {
+      "name": "eyebrow",
+      "fontSize": "11px",
+      "lineHeight": "14px",
+      "fontWeight": 600,
+      "letterSpacing": "0.06em",
+      "sample": "CINESKETCH",
+      "usage": "Product name above a page title. Uppercase via CSS; max one per view."
+     }
+    ]
+   },
+   {
+    "name": "Screenplay",
+    "family": "script",
+    "styles": [
+     {
+      "name": "scene-heading",
+      "fontSize": "13px",
+      "lineHeight": "18px",
+      "fontWeight": 700,
+      "sample": "12. EXT. SALT ORCHARD — DUSK",
+      "usage": "Scene headings in script excerpts and change summaries. Uppercase."
+     },
+     {
+      "name": "script-body",
+      "fontSize": "13px",
+      "lineHeight": "18px",
+      "fontWeight": 400,
+      "sample": "Wind moves through the white trees. ANYA kneels at the brine channel.",
+      "usage": "Action and dialogue excerpts. Courier keeps the page-a-minute convention legible to writers."
+     }
+    ]
+   }
+  ]
+ },
+ "spacing": {
+  "tokens": [
+   {
+    "name": "space-0-5",
+    "value": "2px",
+    "usage": "Icon-to-badge nudges only."
+   },
+   {
+    "name": "space-1",
+    "value": "4px",
+    "usage": "Icon-to-label gap in chips."
+   },
+   {
+    "name": "space-2",
+    "value": "8px",
+    "usage": "Gap between inline controls; chip padding-x."
+   },
+   {
+    "name": "space-3",
+    "value": "12px",
+    "usage": "Control padding-x; row padding-y (compact)."
+   },
+   {
+    "name": "space-4",
+    "value": "16px",
+    "usage": "Row padding-x; panel padding (compact)."
+   },
+   {
+    "name": "space-5",
+    "value": "20px",
+    "usage": "Gutter at compact breakpoint."
+   },
+   {
+    "name": "space-6",
+    "value": "24px",
+    "usage": "Panel padding; gutter at medium."
+   },
+   {
+    "name": "space-8",
+    "value": "32px",
+    "usage": "Section gap; gutter at wide."
+   },
+   {
+    "name": "space-10",
+    "value": "40px",
+    "usage": "Gap between overview sections."
+   },
+   {
+    "name": "space-12",
+    "value": "48px",
+    "usage": "Page top padding (wide)."
+   },
+   {
+    "name": "space-16",
+    "value": "64px",
+    "usage": "Large empty-state padding."
+   }
+  ]
+ },
+ "radius": {
+  "tokens": [
+   {
+    "name": "radius-xs",
+    "value": "4px",
+    "usage": "Thumbnails, keyboard hints, small badges."
+   },
+   {
+    "name": "radius-sm",
+    "value": "6px",
+    "usage": "Compact controls: chips, menu and nav items, segmented items, checkboxes' outer radius family."
+   },
+   {
+    "name": "radius-md",
+    "value": "8px",
+    "usage": "Buttons, inputs, selects — the standard control radius."
+   },
+   {
+    "name": "radius-lg",
+    "value": "12px",
+    "usage": "Cards, panels, menus, composer, review surfaces."
+   },
+   {
+    "name": "radius-xl",
+    "value": "16px",
+    "usage": "Dialogs, command menu and large workspace containers only."
+   },
+   {
+    "name": "radius-full",
+    "value": "999px",
+    "usage": "Avatars, switches, status dots and count badges — never buttons or nav items."
+   }
+  ]
+ },
+ "shadow": {
+  "tokens": [
+   {
+    "name": "shadow-raised",
+    "value": {
+     "light": "0 1px 2px rgba(11,18,32,0.06), 0 1px 1px rgba(11,18,32,0.04)",
+     "dark": "none"
+    },
+    "usage": "bg-raised panels in light mode. Dark mode relies on the lightness step instead."
+   },
+   {
+    "name": "shadow-overlay",
+    "value": {
+     "light": "0 12px 32px rgba(11,18,32,0.14), 0 2px 6px rgba(11,18,32,0.06)",
+     "dark": "0 16px 40px rgba(2,6,16,0.6)"
+    },
+    "usage": "Dialogs, menus, popovers."
+   }
+  ]
+ },
+ "size": {
+  "tokens": [
+   {
+    "name": "control-sm",
+    "value": "28px",
+    "usage": "Small control height (dense tables, toolbars)."
+   },
+   {
+    "name": "control-md",
+    "value": "32px",
+    "usage": "Default control height."
+   },
+   {
+    "name": "control-lg",
+    "value": "40px",
+    "usage": "Large control height (dialogs, touch-heavy surfaces)."
+   },
+   {
+    "name": "target-min",
+    "value": "24px",
+    "usage": "Minimum pointer target (WCAG 2.5.8); icon buttons pad to this."
+   },
+   {
+    "name": "icon-sm",
+    "value": "16px",
+    "usage": "Icons in chips, captions, dense rows."
+   },
+   {
+    "name": "icon-md",
+    "value": "20px",
+    "usage": "Icons in buttons, tabs, menus."
+   },
+   {
+    "name": "icon-lg",
+    "value": "24px",
+    "usage": "Navigation, empty states (scaled ×2 at most)."
+   },
+   {
+    "name": "icon-stroke",
+    "value": "1.5px",
+    "usage": "Icon stroke at 24px; the sprite scales it, so 16px renders ≈1px."
+   },
+   {
+    "name": "row-min",
+    "value": "56px",
+    "usage": "AssetRow minimum height."
+   }
+  ]
+ },
+ "breakpoint": {
+  "tokens": [
+   {
+    "name": "bp-medium",
+    "value": "720px",
+    "usage": "≥720px: two-column overview; asset metadata inline."
+   },
+   {
+    "name": "bp-wide",
+    "value": "1200px",
+    "usage": "≥1200px: overview with side activity column; review shows source and match side by side."
+   }
+  ]
+ },
+ "zIndex": {
+  "tokens": [
+   {
+    "name": "z-sticky",
+    "value": "10",
+    "usage": "ContextBar and sticky table headers."
+   },
+   {
+    "name": "z-overlay",
+    "value": "40",
+    "usage": "Menus and popovers."
+   },
+   {
+    "name": "z-dialog",
+    "value": "50",
+    "usage": "Dialogs and their scrim."
+   }
+  ]
+ }
+}

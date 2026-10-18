@@ -1,0 +1,780 @@
+{
+ "slate": {
+  "0": {
+   "$type": "color",
+   "$value": "#ffffff",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "25": {
+   "$type": "color",
+   "$value": "#f4f7fb",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "50": {
+   "$type": "color",
+   "$value": "#f5f7fa",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "100": {
+   "$type": "color",
+   "$value": "#edf1f6",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "150": {
+   "$type": "color",
+   "$value": "#e2e8f0",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "200": {
+   "$type": "color",
+   "$value": "#d5dde7",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "250": {
+   "$type": "color",
+   "$value": "#c3cedb",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#aab7c9",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "350": {
+   "$type": "color",
+   "$value": "#94a3b8",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "400": {
+   "$type": "color",
+   "$value": "#7d8ca3",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "500": {
+   "$type": "color",
+   "$value": "#63748e",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "550": {
+   "$type": "color",
+   "$value": "#56677f",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "600": {
+   "$type": "color",
+   "$value": "#4a5a70",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "650": {
+   "$type": "color",
+   "$value": "#40516a",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#2d3c52",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "750": {
+   "$type": "color",
+   "$value": "#24354d",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "800": {
+   "$type": "color",
+   "$value": "#1b2940",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "850": {
+   "$type": "color",
+   "$value": "#111c2d",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "875": {
+   "$type": "color",
+   "$value": "#0d1626",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#0b1220",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  },
+  "950": {
+   "$type": "color",
+   "$value": "#080f1e",
+   "$description": "Primitive navy-slate neutral (Lorven Studio). One cool ramp for both themes: light theme reads from the top, dark theme from the bottom. Never use directly in components."
+  }
+ },
+ "blue": {
+  "50": {
+   "$type": "color",
+   "$value": "#eff5ff",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "100": {
+   "$type": "color",
+   "$value": "#dbe8fe",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "200": {
+   "$type": "color",
+   "$value": "#bfd6fe",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#93c0fd",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "400": {
+   "$type": "color",
+   "$value": "#60a5fa",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "500": {
+   "$type": "color",
+   "$value": "#3b82f6",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "600": {
+   "$type": "color",
+   "$value": "#2563eb",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#1d4ed8",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "800": {
+   "$type": "color",
+   "$value": "#1e40af",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#152d55",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  },
+  "925": {
+   "$type": "color",
+   "$value": "#192e4d",
+   "$description": "Primitive electric blue: the single interaction colour. 600 is the fill that carries white text at AA; 400 is links and focus on dark."
+  }
+ },
+ "scrim": {
+  "light": {
+   "$type": "color",
+   "$value": "#0b12207a",
+   "$description": "Primitive overlay colours (8-digit hex: navy at 48% and 72%). Only for the scrim behind dialogs."
+  },
+  "dark": {
+   "$type": "color",
+   "$value": "#020610b8",
+   "$description": "Primitive overlay colours (8-digit hex: navy at 48% and 72%). Only for the scrim behind dialogs."
+  }
+ },
+ "sky": {
+  "100": {
+   "$type": "color",
+   "$value": "#e0f2fe",
+   "$description": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#7dd3fc",
+   "$description": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#075985",
+   "$description": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#0c3048",
+   "$description": "Primitive for In review and information — the cyan side of the brand, kept distinct from interaction blue."
+  }
+ },
+ "green": {
+  "100": {
+   "$type": "color",
+   "$value": "#dcfce7",
+   "$description": "Primitive for Approved and success only."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#6ee7a5",
+   "$description": "Primitive for Approved and success only."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#166534",
+   "$description": "Primitive for Approved and success only."
+  },
+  "800": {
+   "$type": "color",
+   "$value": "#14532d",
+   "$description": "Primitive for Approved and success only."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#0f3a2a",
+   "$description": "Primitive for Approved and success only."
+  }
+ },
+ "orange": {
+  "100": {
+   "$type": "color",
+   "$value": "#ffedd5",
+   "$description": "Primitive for Changes requested only."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#fdba74",
+   "$description": "Primitive for Changes requested only."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#9a3412",
+   "$description": "Primitive for Changes requested only."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#45230f",
+   "$description": "Primitive for Changes requested only."
+  }
+ },
+ "amber": {
+  "100": {
+   "$type": "color",
+   "$value": "#fef3c7",
+   "$description": "Primitive for Check (currency) and warnings."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#f5b94a",
+   "$description": "Primitive for Check (currency) and warnings."
+  },
+  "600": {
+   "$type": "color",
+   "$value": "#b45309",
+   "$description": "Primitive for Check (currency) and warnings."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#92400e",
+   "$description": "Primitive for Check (currency) and warnings."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#3b2a0c",
+   "$description": "Primitive for Check (currency) and warnings."
+  }
+ },
+ "red": {
+  "100": {
+   "$type": "color",
+   "$value": "#fee2e2",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  },
+  "300": {
+   "$type": "color",
+   "$value": "#f87171",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  },
+  "600": {
+   "$type": "color",
+   "$value": "#dc2626",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  },
+  "700": {
+   "$type": "color",
+   "$value": "#b91c1c",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  },
+  "800": {
+   "$type": "color",
+   "$value": "#991b1b",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  },
+  "900": {
+   "$type": "color",
+   "$value": "#4a1515",
+   "$description": "Primitive for Outdated, errors and destructive actions."
+  }
+ },
+ "brand": {
+  "gold": {
+   "$type": "color",
+   "$value": "#e1c261",
+   "$description": "Sampled from the master logo (lorven logo-01.svg, gold gradient on the E; mid stop). Brand surfaces only (studio shell, cover, marketing); never an interface state."
+  },
+  "gold-deep": {
+   "$type": "color",
+   "$value": "#b07908",
+   "$description": "Sampled from the master logo gold gradient (dark end). Brand surfaces on light grounds where brand-gold lacks contrast."
+  },
+  "orange": {
+   "$type": "color",
+   "$value": "#ee7a43",
+   "$description": "Sampled from the master logo (STUDIO gradient start). Brand surfaces only; never a status or action colour."
+  },
+  "red": {
+   "$type": "color",
+   "$value": "#c1272d",
+   "$description": "Sampled from the master logo (STUDIO gradient end). Brand surfaces only; never error or destructive."
+  },
+  "cyan": {
+   "$type": "color",
+   "$value": "#00bdff",
+   "$description": "Sampled from the four product lockups (icon disc). Belongs to the official marks; the UI's own interaction colour is the deeper cine ramp on the same hue."
+  }
+ },
+ "spacing": {
+  "space-0-5": {
+   "$type": "number",
+   "$value": 2.0,
+   "$description": "Icon-to-badge nudges only."
+  },
+  "space-1": {
+   "$type": "number",
+   "$value": 4.0,
+   "$description": "Icon-to-label gap in chips."
+  },
+  "space-2": {
+   "$type": "number",
+   "$value": 8.0,
+   "$description": "Gap between inline controls; chip padding-x."
+  },
+  "space-3": {
+   "$type": "number",
+   "$value": 12.0,
+   "$description": "Control padding-x; row padding-y (compact)."
+  },
+  "space-4": {
+   "$type": "number",
+   "$value": 16.0,
+   "$description": "Row padding-x; panel padding (compact)."
+  },
+  "space-5": {
+   "$type": "number",
+   "$value": 20.0,
+   "$description": "Gutter at compact breakpoint."
+  },
+  "space-6": {
+   "$type": "number",
+   "$value": 24.0,
+   "$description": "Panel padding; gutter at medium."
+  },
+  "space-8": {
+   "$type": "number",
+   "$value": 32.0,
+   "$description": "Section gap; gutter at wide."
+  },
+  "space-10": {
+   "$type": "number",
+   "$value": 40.0,
+   "$description": "Gap between overview sections."
+  },
+  "space-12": {
+   "$type": "number",
+   "$value": 48.0,
+   "$description": "Page top padding (wide)."
+  },
+  "space-16": {
+   "$type": "number",
+   "$value": 64.0,
+   "$description": "Large empty-state padding."
+  }
+ },
+ "radius": {
+  "radius-xs": {
+   "$type": "number",
+   "$value": 4.0,
+   "$description": "Thumbnails, keyboard hints, small badges."
+  },
+  "radius-sm": {
+   "$type": "number",
+   "$value": 6.0,
+   "$description": "Compact controls: chips, menu and nav items, segmented items, checkboxes' outer radius family."
+  },
+  "radius-md": {
+   "$type": "number",
+   "$value": 8.0,
+   "$description": "Buttons, inputs, selects — the standard control radius."
+  },
+  "radius-lg": {
+   "$type": "number",
+   "$value": 12.0,
+   "$description": "Cards, panels, menus, composer, review surfaces."
+  },
+  "radius-xl": {
+   "$type": "number",
+   "$value": 16.0,
+   "$description": "Dialogs, command menu and large workspace containers only."
+  },
+  "radius-full": {
+   "$type": "number",
+   "$value": 999.0,
+   "$description": "Avatars, switches, status dots and count badges — never buttons or nav items."
+  }
+ },
+ "size": {
+  "control-sm": {
+   "$type": "number",
+   "$value": 28.0,
+   "$description": "Small control height (dense tables, toolbars)."
+  },
+  "control-md": {
+   "$type": "number",
+   "$value": 32.0,
+   "$description": "Default control height."
+  },
+  "control-lg": {
+   "$type": "number",
+   "$value": 40.0,
+   "$description": "Large control height (dialogs, touch-heavy surfaces)."
+  },
+  "target-min": {
+   "$type": "number",
+   "$value": 24.0,
+   "$description": "Minimum pointer target (WCAG 2.5.8); icon buttons pad to this."
+  },
+  "icon-sm": {
+   "$type": "number",
+   "$value": 16.0,
+   "$description": "Icons in chips, captions, dense rows."
+  },
+  "icon-md": {
+   "$type": "number",
+   "$value": 20.0,
+   "$description": "Icons in buttons, tabs, menus."
+  },
+  "icon-lg": {
+   "$type": "number",
+   "$value": 24.0,
+   "$description": "Navigation, empty states (scaled ×2 at most)."
+  },
+  "icon-stroke": {
+   "$type": "number",
+   "$value": 1.5,
+   "$description": "Icon stroke at 24px; the sprite scales it, so 16px renders ≈1px."
+  },
+  "row-min": {
+   "$type": "number",
+   "$value": 56.0,
+   "$description": "AssetRow minimum height."
+  }
+ },
+ "breakpoint": {
+  "bp-medium": {
+   "$type": "number",
+   "$value": 720.0,
+   "$description": "≥720px: two-column overview; asset metadata inline."
+  },
+  "bp-wide": {
+   "$type": "number",
+   "$value": 1200.0,
+   "$description": "≥1200px: overview with side activity column; review shows source and match side by side."
+  }
+ },
+ "zIndex": {
+  "z-sticky": {
+   "$type": "number",
+   "$value": 10.0,
+   "$description": "ContextBar and sticky table headers."
+  },
+  "z-overlay": {
+   "$type": "number",
+   "$value": 40.0,
+   "$description": "Menus and popovers."
+  },
+  "z-dialog": {
+   "$type": "number",
+   "$value": 50.0,
+   "$description": "Dialogs and their scrim."
+  }
+ },
+ "type": {
+  "family": {
+   "sans": {
+    "$type": "string",
+    "$value": "Switzer",
+    "$description": "Primary face of the sans stack. Full CSS stack: Switzer, \"Helvetica Neue\", Arial, sans-serif"
+   },
+   "brand": {
+    "$type": "string",
+    "$value": "Nexa",
+    "$description": "Primary face of the brand stack. Full CSS stack: Nexa, Switzer, sans-serif"
+   },
+   "script": {
+    "$type": "string",
+    "$value": "Courier Prime",
+    "$description": "Primary face of the script stack. Full CSS stack: \"Courier Prime\", \"Courier New\", Courier, monospace"
+   },
+   "mono": {
+    "$type": "string",
+    "$value": "Geist Mono",
+    "$description": "Primary face of the mono stack. Full CSS stack: \"Geist Mono\", ui-monospace, Menlo, monospace"
+   }
+  },
+  "display": {
+   "size": {
+    "$type": "number",
+    "$value": 40.0,
+    "$description": "Project title on the overview only. One per screen."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 44.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 600.0
+   },
+   "tracking-em": {
+    "$type": "number",
+    "$value": -0.02,
+    "$description": "Letter spacing in em; multiply by size for px."
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "title-1": {
+   "size": {
+    "$type": "number",
+    "$value": 28.0,
+    "$description": "Page title in a product workspace."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 34.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 600.0
+   },
+   "tracking-em": {
+    "$type": "number",
+    "$value": -0.015,
+    "$description": "Letter spacing in em; multiply by size for px."
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "title-2": {
+   "size": {
+    "$type": "number",
+    "$value": 20.0,
+    "$description": "Section and dialog titles."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 26.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 600.0
+   },
+   "tracking-em": {
+    "$type": "number",
+    "$value": -0.01,
+    "$description": "Letter spacing in em; multiply by size for px."
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "title-3": {
+   "size": {
+    "$type": "number",
+    "$value": 16.0,
+    "$description": "Asset names, panel headers."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 22.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 600.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "body-lg": {
+   "size": {
+    "$type": "number",
+    "$value": 16.0,
+    "$description": "Long-form explanatory copy, empty states."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 24.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 400.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "body": {
+   "size": {
+    "$type": "number",
+    "$value": 14.0,
+    "$description": "Default UI text."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 20.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 400.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "label": {
+   "size": {
+    "$type": "number",
+    "$value": 13.0,
+    "$description": "Buttons, tabs, form labels, chips."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 16.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 500.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "caption": {
+   "size": {
+    "$type": "number",
+    "$value": 12.0,
+    "$description": "Timestamps and secondary metadata. Never below 12px."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 16.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 400.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "eyebrow": {
+   "size": {
+    "$type": "number",
+    "$value": 11.0,
+    "$description": "Product name above a page title. Uppercase via CSS; max one per view."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 14.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 600.0
+   },
+   "tracking-em": {
+    "$type": "number",
+    "$value": 0.06,
+    "$description": "Letter spacing in em; multiply by size for px."
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.sans}"
+   }
+  },
+  "scene-heading": {
+   "size": {
+    "$type": "number",
+    "$value": 13.0,
+    "$description": "Scene headings in script excerpts and change summaries. Uppercase."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 18.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 700.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.script}"
+   }
+  },
+  "script-body": {
+   "size": {
+    "$type": "number",
+    "$value": 13.0,
+    "$description": "Action and dialogue excerpts. Courier keeps the page-a-minute convention legible to writers."
+   },
+   "line-height": {
+    "$type": "number",
+    "$value": 18.0
+   },
+   "weight": {
+    "$type": "number",
+    "$value": 400.0
+   },
+   "family": {
+    "$type": "string",
+    "$value": "{type.family.script}"
+   }
+  }
+ },
+ "motion": {
+  "duration-fast": {
+   "$type": "number",
+   "$value": 120,
+   "$description": "Hover and press colour changes (ms)."
+  },
+  "duration-base": {
+   "$type": "number",
+   "$value": 200,
+   "$description": "Menus and popovers (ms)."
+  },
+  "duration-slow": {
+   "$type": "number",
+   "$value": 280,
+   "$description": "Dialogs and panel transitions (ms)."
+  },
+  "ease-enter": {
+   "$type": "string",
+   "$value": "cubic-bezier(.2,0,0,1)",
+   "$description": "Elements entering or responding."
+  },
+  "ease-exit": {
+   "$type": "string",
+   "$value": "cubic-bezier(.4,0,1,1)",
+   "$description": "Elements leaving."
+  }
+ }
+}

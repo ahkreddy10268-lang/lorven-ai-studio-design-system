@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StatusChip · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><div class="ds-label">Approval — filled · who signed off</div>
+<div class="ds-row"><span class="l-chip l-chip--draft"><span data-icon="draft" data-size="16"></span>Draft</span><span class="l-chip l-chip--review"><span data-icon="in-review" data-size="16"></span>In review</span><span class="l-chip l-chip--approved"><span data-icon="approved" data-size="16"></span>Approved</span><span class="l-chip l-chip--changes"><span data-icon="changes-requested" data-size="16"></span>Changes requested</span></div>
+<div class="ds-label">Currency — outlined · relation to source</div>
+<div class="ds-row"><span class="l-chip l-chip--current"><span data-icon="current" data-size="16"></span>Current</span><span class="l-chip l-chip--check"><span data-icon="check-source" data-size="16"></span>Check</span><span class="l-chip l-chip--outdated"><span data-icon="outdated" data-size="16"></span>Outdated</span></div>
+<div class="ds-label">Attention — no container · what it asks of you</div>
+<div class="ds-row" style="gap:var(--space-5)"><span class="l-attn l-attn--needs"><span data-icon="needs-you" data-size="16"></span>Needs you</span><span class="l-attn"><span data-icon="waiting" data-size="16"></span>Waiting on Meera</span><span class="l-attn l-attn--none"><span data-icon="no-action" data-size="16"></span>No action needed</span></div>
+<div class="ds-label">Combined — approved but outdated</div>
+<div class="ds-row"><span class="l-chip l-chip--approved"><span data-icon="approved" data-size="16"></span>Approved</span><span class="l-chip l-chip--outdated"><span data-icon="outdated" data-size="16"></span>Outdated</span><span class="l-attn l-attn--needs"><span data-icon="needs-you" data-size="16"></span>Needs you</span></div></div><div data-theme="dark"><div class="ds-label">Approval — filled · who signed off</div>
+<div class="ds-row"><span class="l-chip l-chip--draft"><span data-icon="draft" data-size="16"></span>Draft</span><span class="l-chip l-chip--review"><span data-icon="in-review" data-size="16"></span>In review</span><span class="l-chip l-chip--approved"><span data-icon="approved" data-size="16"></span>Approved</span><span class="l-chip l-chip--changes"><span data-icon="changes-requested" data-size="16"></span>Changes requested</span></div>
+<div class="ds-label">Currency — outlined · relation to source</div>
+<div class="ds-row"><span class="l-chip l-chip--current"><span data-icon="current" data-size="16"></span>Current</span><span class="l-chip l-chip--check"><span data-icon="check-source" data-size="16"></span>Check</span><span class="l-chip l-chip--outdated"><span data-icon="outdated" data-size="16"></span>Outdated</span></div>
+<div class="ds-label">Attention — no container · what it asks of you</div>
+<div class="ds-row" style="gap:var(--space-5)"><span class="l-attn l-attn--needs"><span data-icon="needs-you" data-size="16"></span>Needs you</span><span class="l-attn"><span data-icon="waiting" data-size="16"></span>Waiting on Meera</span><span class="l-attn l-attn--none"><span data-icon="no-action" data-size="16"></span>No action needed</span></div>
+<div class="ds-label">Combined — approved but outdated</div>
+<div class="ds-row"><span class="l-chip l-chip--approved"><span data-icon="approved" data-size="16"></span>Approved</span><span class="l-chip l-chip--outdated"><span data-icon="outdated" data-size="16"></span>Outdated</span><span class="l-attn l-attn--needs"><span data-icon="needs-you" data-size="16"></span>Needs you</span></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

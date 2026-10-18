@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cover · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="cov">
+<svg class="cov-art" viewBox="0 0 960 300" width="960" height="300" aria-hidden="true">
+<!-- blocks: bg-inverse film strip 480x128, brand-gold / brand-orange / brand-red / brand-cyan frames (sampled from the logos) 104x64 (space-16 tall), action-primary satellite 224x116
+     arrangement: one horizontal slab across the top-right with a satellite bleeding off the bottom-right corner
+     pattern: literal motif (film strip) — sprocket holes cut from the ground at a space-8 (32px) pitch, because every product lockup carries a film strip and the strip carries the sampled palette as frames
+     scales: holes 16x12 radius-sm, frames radius-xs, gaps space-4, strip inset space-8 -->
+<rect class="slab" x="480" y="32" width="480" height="128"/>
+<rect class="hole" x="492" y="44" width="16" height="12"/><rect class="hole" x="524" y="44" width="16" height="12"/><rect class="hole" x="556" y="44" width="16" height="12"/><rect class="hole" x="588" y="44" width="16" height="12"/><rect class="hole" x="620" y="44" width="16" height="12"/><rect class="hole" x="652" y="44" width="16" height="12"/><rect class="hole" x="684" y="44" width="16" height="12"/><rect class="hole" x="716" y="44" width="16" height="12"/><rect class="hole" x="748" y="44" width="16" height="12"/><rect class="hole" x="780" y="44" width="16" height="12"/><rect class="hole" x="812" y="44" width="16" height="12"/><rect class="hole" x="844" y="44" width="16" height="12"/><rect class="hole" x="876" y="44" width="16" height="12"/><rect class="hole" x="908" y="44" width="16" height="12"/><rect class="hole" x="940" y="44" width="16" height="12"/><rect class="hole" x="492" y="136" width="16" height="12"/><rect class="hole" x="524" y="136" width="16" height="12"/><rect class="hole" x="556" y="136" width="16" height="12"/><rect class="hole" x="588" y="136" width="16" height="12"/><rect class="hole" x="620" y="136" width="16" height="12"/><rect class="hole" x="652" y="136" width="16" height="12"/><rect class="hole" x="684" y="136" width="16" height="12"/><rect class="hole" x="716" y="136" width="16" height="12"/><rect class="hole" x="748" y="136" width="16" height="12"/><rect class="hole" x="780" y="136" width="16" height="12"/><rect class="hole" x="812" y="136" width="16" height="12"/><rect class="hole" x="844" y="136" width="16" height="12"/><rect class="hole" x="876" y="136" width="16" height="12"/><rect class="hole" x="908" y="136" width="16" height="12"/><rect class="hole" x="940" y="136" width="16" height="12"/>
+<rect class="fr gold" x="496" y="64" width="104" height="64"/><rect class="fr orange" x="616" y="64" width="104" height="64"/><rect class="fr red" x="736" y="64" width="104" height="64"/><rect class="fr cyan" x="856" y="64" width="104" height="64"/>
+<rect class="sat" x="736" y="184" width="224" height="116"/>
+</svg>
+<div class="cov-text"><div class="cov-name">Lorven<br>AI Studio</div><div class="cov-tag">A calm, exact workspace for making films.</div></div>
+</div>
+<style>
+.cov{position:relative;width:960px;height:300px;background:var(--bg-canvas);overflow:hidden;font-family:var(--font-sans)}
+.cov-art{position:absolute;inset:0}
+.slab{fill:var(--bg-inverse)}
+.hole{fill:var(--bg-canvas);rx:var(--radius-sm)}
+.fr{rx:var(--radius-xs)}
+.gold{fill:var(--brand-gold)} .orange{fill:var(--brand-orange)} .red{fill:var(--brand-red)} .cyan{fill:var(--brand-cyan)}
+.sat{fill:var(--action-primary)}
+.cov-text{position:absolute;left:40px;bottom:36px;max-width:440px}
+.cov-name{font-size:80px;line-height:.95;font-weight:600;letter-spacing:-0.03em;color:var(--text-primary)}
+.cov-tag{margin-top:16px;font-size:14px;line-height:20px;color:var(--text-secondary)}
+</style>
+<script src="../bundle.js"></script></body></html>

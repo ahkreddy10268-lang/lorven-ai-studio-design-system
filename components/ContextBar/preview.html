@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ContextBar · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-stack"><div data-theme="light"><div style="border:1px solid var(--border-default);border-radius:var(--radius-md);overflow:hidden">
+<div class="l-context"><button class="l-btn l-btn--icon l-btn--sm" aria-label="Switch product"><span data-icon="switch" data-size="16"></span></button>
+<nav class="l-context__crumbs" aria-label="Breadcrumb"><a href="#">The Salt Orchard</a><span data-icon="chevron-right" data-size="16"></span><a href="#">Cine Sketch</a><span data-icon="chevron-right" data-size="16"></span><span class="l-context__here">Sequence 3 — Brine channel</span></nav>
+<span class="l-context__spacer"></span><span class="l-context__source"><span data-icon="history" data-size="16"></span><span>From Screenplay <b class="l-num" style="color:var(--text-primary)">v6</b></span><span class="l-chip l-chip--check l-chip--compact"><span data-icon="check-source" data-size="16"></span>Check</span></span><span class="l-context__sep"></span><button class="l-btn l-btn--tertiary l-btn--sm">Review changes</button></div>
+<div style="height:56px;background:var(--bg-surface)"></div></div></div><div data-theme="dark"><div style="border:1px solid var(--border-default);border-radius:var(--radius-md);overflow:hidden">
+<div class="l-context"><button class="l-btn l-btn--icon l-btn--sm" aria-label="Switch product"><span data-icon="switch" data-size="16"></span></button>
+<nav class="l-context__crumbs" aria-label="Breadcrumb"><a href="#">The Salt Orchard</a><span data-icon="chevron-right" data-size="16"></span><a href="#">Cine Sketch</a><span data-icon="chevron-right" data-size="16"></span><span class="l-context__here">Sequence 3 — Brine channel</span></nav>
+<span class="l-context__spacer"></span><span class="l-context__source"><span data-icon="history" data-size="16"></span><span>From Screenplay <b class="l-num" style="color:var(--text-primary)">v6</b></span><span class="l-chip l-chip--check l-chip--compact"><span data-icon="check-source" data-size="16"></span>Check</span></span><span class="l-context__sep"></span><button class="l-btn l-btn--tertiary l-btn--sm">Review changes</button></div>
+<div style="height:56px;background:var(--bg-surface)"></div></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>
