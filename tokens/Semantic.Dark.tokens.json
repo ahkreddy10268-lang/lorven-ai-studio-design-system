@@ -1,0 +1,296 @@
+{
+ "bg": {
+  "canvas": {
+   "$type": "color",
+   "$value": "{slate.900}",
+   "$description": "App background behind panels."
+  },
+  "surface": {
+   "$type": "color",
+   "$value": "{slate.850}",
+   "$description": "Default working surface: panels, lists, editors. Body text sits here."
+  },
+  "raised": {
+   "$type": "color",
+   "$value": "{slate.800}",
+   "$description": "Raised panels and filled secondary controls. Light separates with shadow-raised; dark with a lightness step."
+  },
+  "recessed": {
+   "$type": "color",
+   "$value": "{slate.875}",
+   "$description": "Recessed wells: context bar, letterbox, code and technical content."
+  },
+  "overlay": {
+   "$type": "color",
+   "$value": "{slate.800}",
+   "$description": "Menus, popovers, dialogs (with border-default and shadow-overlay)."
+  },
+  "hover": {
+   "$type": "color",
+   "$value": "{slate.750}",
+   "$description": "Hover fill for rows, menu items, ghost and icon buttons."
+  },
+  "selected": {
+   "$type": "color",
+   "$value": "{blue.925}",
+   "$description": "Selected row or item; always with border-selected."
+  },
+  "inverse": {
+   "$type": "color",
+   "$value": "{slate.25}",
+   "$description": "Tooltips and toasts."
+  },
+  "control": {
+   "$type": "color",
+   "$value": "{slate.700}",
+   "$description": "Filled neutral controls: secondary buttons, filter chips, segmented tracks. One step beyond bg-hover so a control stays visible inside a hovered row. Labels on it use text-primary or text-secondary, never text-muted."
+  },
+  "control-hover": {
+   "$type": "color",
+   "$value": "{slate.650}",
+   "$description": "Hover on bg-control. Labels on it are text-primary."
+  },
+  "plate": {
+   "$type": "color",
+   "$value": "{slate.0}",
+   "$description": "Pure white plate in both themes: behind black product lockups on dark grounds, and the knob of switches."
+  },
+  "input": {
+   "$type": "color",
+   "$value": "{slate.875}",
+   "$description": "Text fields and selects at rest — a step below the surface in dark so fields read as wells, not cards."
+  },
+  "code": {
+   "$type": "color",
+   "$value": "{slate.950}",
+   "$description": "Code and technical blocks."
+  },
+  "shell": {
+   "$type": "color",
+   "$value": "{slate.950}",
+   "$description": "Studio shell: sidebar and global navigation, deep navy in both themes so the workspace reads as a lit stage."
+  }
+ },
+ "shell": {
+  "text": {
+   "$type": "color",
+   "$value": "{slate.25}",
+   "$description": "Labels on bg-shell, shell-hover and shell-selected."
+  },
+  "text-muted": {
+   "$type": "color",
+   "$value": "{slate.350}",
+   "$description": "Group headings and secondary labels on bg-shell."
+  },
+  "hover": {
+   "$type": "color",
+   "$value": "{slate.850}",
+   "$description": "Hover fill for shell navigation items."
+  },
+  "selected": {
+   "$type": "color",
+   "$value": "{blue.925}",
+   "$description": "Current navigation item on bg-shell; paired with shell-indicator."
+  },
+  "indicator": {
+   "$type": "color",
+   "$value": "{blue.400}",
+   "$description": "2px current-item indicator and focus ring in the shell."
+  },
+  "border": {
+   "$type": "color",
+   "$value": "{slate.850}",
+   "$description": "Divider inside the shell and between shell and workspace."
+  }
+ },
+ "text": {
+  "primary": {
+   "$type": "color",
+   "$value": "{slate.25}",
+   "$description": "Headings and body on every bg-* surface."
+  },
+  "secondary": {
+   "$type": "color",
+   "$value": "{slate.300}",
+   "$description": "Metadata and supporting copy on every bg-* surface."
+  },
+  "muted": {
+   "$type": "color",
+   "$value": "{slate.350}",
+   "$description": "Tertiary labels and timestamps on surface, raised, canvas, hover and selected (≥4.5:1)."
+  },
+  "disabled": {
+   "$type": "color",
+   "$value": "{slate.500}",
+   "$description": "Disabled labels; exempt from contrast minimums (WCAG 1.4.3). Pair with a reason nearby."
+  },
+  "inverse": {
+   "$type": "color",
+   "$value": "{slate.900}",
+   "$description": "Text on bg-inverse."
+  },
+  "on-action": {
+   "$type": "color",
+   "$value": "{slate.0}",
+   "$description": "Label on action-primary, its hover and pressed fills."
+  },
+  "link": {
+   "$type": "color",
+   "$value": "{blue.400}",
+   "$description": "Links and source references on any bg-* surface."
+  },
+  "on-destructive": {
+   "$type": "color",
+   "$value": "{slate.0}",
+   "$description": "Label on action-destructive."
+  }
+ },
+ "border": {
+  "subtle": {
+   "$type": "color",
+   "$value": "{slate.750}",
+   "$description": "Row dividers and section separators. Decorative only."
+  },
+  "default": {
+   "$type": "color",
+   "$value": "{slate.700}",
+   "$description": "Panel, card, menu and dialog outlines."
+  },
+  "strong": {
+   "$type": "color",
+   "$value": "{slate.500}",
+   "$description": "Control boundaries (inputs, outline buttons, checkboxes); ≥3:1 on surface, raised and input."
+  },
+  "selected": {
+   "$type": "color",
+   "$value": "{blue.400}",
+   "$description": "Selected item edge; ≥3:1 on surface and selected."
+  }
+ },
+ "action": {
+  "primary": {
+   "$type": "color",
+   "$value": "{blue.600}",
+   "$description": "Primary action fill, active tab indicator, checked controls. One primary action per view."
+  },
+  "primary-hover": {
+   "$type": "color",
+   "$value": "{blue.700}",
+   "$description": "Hover on action-primary."
+  },
+  "primary-pressed": {
+   "$type": "color",
+   "$value": "{blue.800}",
+   "$description": "Pressed on action-primary."
+  },
+  "primary-subtle": {
+   "$type": "color",
+   "$value": "{blue.900}",
+   "$description": "Tinted fill for selected toggles and subtle primary emphasis."
+  },
+  "destructive": {
+   "$type": "color",
+   "$value": "{red.600}",
+   "$description": "Destructive fill (delete, discard). Pair with text-on-destructive."
+  }
+ },
+ "focus": {
+  "ring": {
+   "$type": "color",
+   "$value": "{blue.400}",
+   "$description": "2px solid focus ring with 2px offset; ≥3:1 on every surface."
+  }
+ },
+ "skeleton": {
+  "$type": "color",
+  "$value": "{slate.750}",
+  "$description": "Loading placeholders."
+ },
+ "status": {
+  "draft-fg": {
+   "$type": "color",
+   "$value": "{slate.300}",
+   "$description": "Draft chip label and icon on status-draft-bg."
+  },
+  "draft-bg": {
+   "$type": "color",
+   "$value": "{slate.750}",
+   "$description": "Draft chip fill."
+  },
+  "review-fg": {
+   "$type": "color",
+   "$value": "{sky.300}",
+   "$description": "In review chip label and icon on status-review-bg."
+  },
+  "review-bg": {
+   "$type": "color",
+   "$value": "{sky.900}",
+   "$description": "In review chip fill."
+  },
+  "approved-fg": {
+   "$type": "color",
+   "$value": "{green.300}",
+   "$description": "Approved chip label and icon on status-approved-bg."
+  },
+  "approved-bg": {
+   "$type": "color",
+   "$value": "{green.900}",
+   "$description": "Approved chip fill."
+  },
+  "changes-fg": {
+   "$type": "color",
+   "$value": "{orange.300}",
+   "$description": "Changes requested chip label and icon on status-changes-bg."
+  },
+  "changes-bg": {
+   "$type": "color",
+   "$value": "{orange.900}",
+   "$description": "Changes requested chip fill."
+  },
+  "check-fg": {
+   "$type": "color",
+   "$value": "{amber.300}",
+   "$description": "Check (currency) and warning text on surface/raised. Outline chip."
+  },
+  "check-border": {
+   "$type": "color",
+   "$value": "{amber.300}",
+   "$description": "Check outline and warning alert border; ≥3:1 on surface."
+  },
+  "outdated-fg": {
+   "$type": "color",
+   "$value": "{red.300}",
+   "$description": "Outdated (currency) text on surface/raised. Outline chip."
+  },
+  "outdated-border": {
+   "$type": "color",
+   "$value": "{red.300}",
+   "$description": "Outdated outline and error alert border; ≥3:1 on surface."
+  },
+  "error-fg": {
+   "$type": "color",
+   "$value": "{red.300}",
+   "$description": "Validation and error text on surface."
+  },
+  "success-fg": {
+   "$type": "color",
+   "$value": "{green.300}",
+   "$description": "Confirmation text on surface."
+  },
+  "info-fg": {
+   "$type": "color",
+   "$value": "{sky.300}",
+   "$description": "Information alert text and icon on surface."
+  },
+  "info-border": {
+   "$type": "color",
+   "$value": "{sky.300}",
+   "$description": "Information alert border; ≥3:1 on surface."
+  }
+ },
+ "scrim": {
+  "$type": "color",
+  "$value": "{scrim.dark}",
+  "$description": "Overlay behind dialogs and the command menu."
+ }
+}

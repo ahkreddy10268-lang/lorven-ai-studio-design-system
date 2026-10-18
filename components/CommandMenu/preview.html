@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CommandMenu · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><div class="l-cmd" role="dialog" aria-label="Command menu"><div class="l-cmd__input"><span data-icon="search" data-size="20"></span><input value="frame" aria-label="Search commands"><span class="l-kbd">Esc</span></div>
+<div class="l-cmd__list" role="listbox"><div class="l-cmd__head">Actions</div>
+<div class="l-cmd__item" role="option" aria-selected="true"><span data-icon="aperture" data-size="20"></span><span>Generate <mark>frame</mark>s for scene 12</span><span class="l-kbd">G</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="compare" data-size="20"></span><span>Compare <mark>frame</mark> versions</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="export" data-size="20"></span><span>Export <mark>frame</mark>s as PDF</span></div>
+<div class="l-cmd__head">Go to</div>
+<div class="l-cmd__item" role="option"><span data-icon="frame" data-size="20"></span><span><mark>Frame</mark> 3.04 · Brine channel</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="storyboard" data-size="20"></span>Storyboard — Sequence 3</div></div>
+<div class="l-cmd__foot"><span>↑↓ to move</span><span>↵ to run</span><span>⌘K to open anywhere</span></div></div></div><div data-theme="dark"><div class="l-cmd" role="dialog" aria-label="Command menu"><div class="l-cmd__input"><span data-icon="search" data-size="20"></span><input value="frame" aria-label="Search commands"><span class="l-kbd">Esc</span></div>
+<div class="l-cmd__list" role="listbox"><div class="l-cmd__head">Actions</div>
+<div class="l-cmd__item" role="option" aria-selected="true"><span data-icon="aperture" data-size="20"></span><span>Generate <mark>frame</mark>s for scene 12</span><span class="l-kbd">G</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="compare" data-size="20"></span><span>Compare <mark>frame</mark> versions</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="export" data-size="20"></span><span>Export <mark>frame</mark>s as PDF</span></div>
+<div class="l-cmd__head">Go to</div>
+<div class="l-cmd__item" role="option"><span data-icon="frame" data-size="20"></span><span><mark>Frame</mark> 3.04 · Brine channel</span></div>
+<div class="l-cmd__item" role="option"><span data-icon="storyboard" data-size="20"></span>Storyboard — Sequence 3</div></div>
+<div class="l-cmd__foot"><span>↑↓ to move</span><span>↵ to run</span><span>⌘K to open anywhere</span></div></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

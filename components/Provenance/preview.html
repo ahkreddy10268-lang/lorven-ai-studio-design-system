@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Provenance · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><div class="ds-row" style="gap:var(--space-5)"><span class="l-prov"><span data-icon="aperture" data-size="16"></span>Generated</span><span class="l-prov"><span data-icon="aperture" data-size="16"></span>Generated · edited by Meera</span><span class="l-prov l-prov--edited"><span data-icon="character" data-size="16"></span>Drawn by Ravi</span></div>
+<div style="position:relative;width:240px" class="l-sbframe__art"><span><span data-icon="frame" data-size="28"></span></span><span class="l-prov l-prov--overlay"><span data-icon="aperture" data-size="16"></span>Generated</span></div></div><div data-theme="dark"><div class="ds-row" style="gap:var(--space-5)"><span class="l-prov"><span data-icon="aperture" data-size="16"></span>Generated</span><span class="l-prov"><span data-icon="aperture" data-size="16"></span>Generated · edited by Meera</span><span class="l-prov l-prov--edited"><span data-icon="character" data-size="16"></span>Drawn by Ravi</span></div>
+<div style="position:relative;width:240px" class="l-sbframe__art"><span><span data-icon="frame" data-size="28"></span></span><span class="l-prov l-prov--overlay"><span data-icon="aperture" data-size="16"></span>Generated</span></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

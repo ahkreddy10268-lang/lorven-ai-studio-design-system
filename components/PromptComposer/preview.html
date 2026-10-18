@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PromptComposer · Lorven AI Studio</title>
+<link rel="stylesheet" href="../../tokens/fonts.css"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css">
+<style>body{margin:0;padding:24px;background:var(--bg-canvas);color:var(--text-primary)}
+.ds-stack{display:flex;flex-direction:column;gap:24px}.ds-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.ds-label{font:600 11px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}
+.ds-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.ds-pair>*{padding:16px;background:var(--bg-canvas)}
+.theme-bar{position:fixed;top:12px;right:12px;z-index:100}.theme-bar button{font:500 12px var(--font-sans);padding:6px 10px;border-radius:6px;border:1px solid var(--border-strong);background:var(--bg-control);color:var(--text-primary);cursor:pointer}</style></head>
+<body><div class="theme-bar"><button onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">Toggle theme</button></div>
+<div class="ds-pair"><div data-theme="light"><div class="ds-label">Ready</div>
+<div class="l-composer"><div class="l-composer__ctx">Using<span class="l-ref"><span data-icon="script" data-size="16"></span>Scene 12<button aria-label="Remove scene 12"><span data-icon="close" data-size="16"></span></button></span><span class="l-ref"><span data-icon="character" data-size="16"></span>Anya<button aria-label="Remove Anya"><span data-icon="close" data-size="16"></span></button></span><button class="l-btn l-btn--tertiary l-btn--sm"><span data-icon="plus" data-size="16"></span>Add context</button></div>
+<textarea aria-label="Describe the frames">Low angle on Anya at the brine channel, dusk light behind the trees.</textarea>
+<div class="l-composer__bar"><span class="l-composer__note">Makes 3 new frames. Your current frames stay.</span><button class="l-btn l-btn--secondary l-btn--sm"><span data-icon="sliders" data-size="16"></span>3 variations</button><button class="l-btn l-btn--primary l-btn--sm"><span data-icon="aperture" data-size="16"></span>Generate</button></div></div>
+<div class="ds-label">Generating</div>
+<div class="l-composer is-busy"><textarea aria-label="Describe the frames" readonly>Low angle on Anya at the brine channel, dusk light behind the trees.</textarea>
+<div class="l-composer__bar"><span class="l-composer__note" role="status">Generating 3 frames…</span><button class="l-btn l-btn--secondary l-btn--sm"><span data-icon="stop" data-size="16"></span>Stop</button></div></div>
+<div class="ds-label">Unavailable</div>
+<div class="l-composer is-disabled"><textarea aria-label="Describe the frames" disabled placeholder="Add a scene first — frames are generated from scene text."></textarea>
+<div class="l-composer__bar"><span class="l-composer__note">No scene selected.</span><button class="l-btn l-btn--primary l-btn--sm" disabled><span data-icon="aperture" data-size="16"></span>Generate</button></div></div></div><div data-theme="dark"><div class="ds-label">Ready</div>
+<div class="l-composer"><div class="l-composer__ctx">Using<span class="l-ref"><span data-icon="script" data-size="16"></span>Scene 12<button aria-label="Remove scene 12"><span data-icon="close" data-size="16"></span></button></span><span class="l-ref"><span data-icon="character" data-size="16"></span>Anya<button aria-label="Remove Anya"><span data-icon="close" data-size="16"></span></button></span><button class="l-btn l-btn--tertiary l-btn--sm"><span data-icon="plus" data-size="16"></span>Add context</button></div>
+<textarea aria-label="Describe the frames">Low angle on Anya at the brine channel, dusk light behind the trees.</textarea>
+<div class="l-composer__bar"><span class="l-composer__note">Makes 3 new frames. Your current frames stay.</span><button class="l-btn l-btn--secondary l-btn--sm"><span data-icon="sliders" data-size="16"></span>3 variations</button><button class="l-btn l-btn--primary l-btn--sm"><span data-icon="aperture" data-size="16"></span>Generate</button></div></div>
+<div class="ds-label">Generating</div>
+<div class="l-composer is-busy"><textarea aria-label="Describe the frames" readonly>Low angle on Anya at the brine channel, dusk light behind the trees.</textarea>
+<div class="l-composer__bar"><span class="l-composer__note" role="status">Generating 3 frames…</span><button class="l-btn l-btn--secondary l-btn--sm"><span data-icon="stop" data-size="16"></span>Stop</button></div></div>
+<div class="ds-label">Unavailable</div>
+<div class="l-composer is-disabled"><textarea aria-label="Describe the frames" disabled placeholder="Add a scene first — frames are generated from scene text."></textarea>
+<div class="l-composer__bar"><span class="l-composer__note">No scene selected.</span><button class="l-btn l-btn--primary l-btn--sm" disabled><span data-icon="aperture" data-size="16"></span>Generate</button></div></div></div></div>
+<script>window.Lorven&&Lorven.hydrate();</script>
+
+<script src="../bundle.js"></script></body></html>

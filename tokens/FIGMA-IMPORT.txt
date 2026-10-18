@@ -1,0 +1,50 @@
+Lorven AI Studio — design tokens (W3C design-token JSON)
+=========================================================
+
+IMPORT ORDER
+1. Primitives.tokens.json   -> collection "Primitives" (one mode)
+2. Semantic.Light.tokens.json + Semantic.Dark.tokens.json -> collection "Semantic", modes "Light" and "Dark"
+3. Component.tokens.json    -> collection "Component" (one mode)
+Semantic aliases Primitives; Component aliases Semantic. Import in this order or aliases will not resolve.
+
+WHAT EACH COLLECTION HOLDS
+- Primitives: raw values only. Colour ramps (slate, blue, sky, green, orange, amber, red), brand colours sampled from
+  the logos (brand.*), scrim overlays (8-digit hex), spacing, radius, size, breakpoint, z-index, typography
+  (family, size, line-height, weight, tracking per text style) and motion (durations in ms, easing strings).
+- Semantic: roles, with Light and Dark values on identical names (bg, text, border, action, focus, status, shell, scrim).
+- Component: component-specific decisions, each an alias of one Semantic token.
+
+THEME USAGE
+- Dark ("Lorven Studio Dark") and Light are two modes of one system. Switch the mode; never fork a component.
+- Surfaces, back to front (dark): shell -> canvas -> recessed/input -> surface -> raised/overlay -> control/hover -> selected.
+- The navigation shell (bg.shell, shell.*) is deep navy in BOTH modes.
+- Electric blue (action.*, focus.ring, text.link, border.selected) is for actions, links, focus, selection and checked
+  controls only — never decoration.
+- In review and information use sky; brand.* colours are for logos, cover and marketing only.
+
+NAMING CONVENTIONS
+- Paths are <group>.<role>[-<variant>][-<state>]: bg.control-hover, text.on-action, status.check-fg, action.primary-pressed.
+- Group = the first word of the token's CSS name (bg-control-hover -> bg.control-hover). Do not add deeper nesting.
+- Primitives use <ramp>.<step> (slate.850, blue.600). Higher step = darker.
+- Lengths are unitless numbers in px ($type "number") so they map to Figma number variables; tracking is in em.
+
+COMPONENT EXTENSION RULES
+1. Reuse a Semantic token whenever it already names the role (tabs use action.primary; tooltips and toasts use bg.inverse).
+2. Add a Component token only when a component must differ from, or name a reuse of, a semantic role
+   (switch.track-off reuses border.strong so the off track meets 3:1).
+3. A Component token aliases exactly one Semantic token — never a primitive, never a raw value.
+4. A new Semantic token needs both modes, a description naming the surfaces it sits on, and a passing contrast check.
+5. Never rename a token in place: add, migrate, then retire.
+
+RULES THE VALUES DEPEND ON
+- text.muted is never placed on bg.control; labels on bg.control-hover are text.primary.
+- Inputs sit on bg.input; blue appears on a field only on focus (border.selected + focus.ring) or error.
+- Disabled states are quieter than enabled ones (dashed border.subtle for fields; bg.control for buttons).
+
+NOT VARIABLES (create as Figma effect styles)
+- shadow-raised  light: 0 1px 2px rgba(11,18,32,0.06), 0 1px 1px rgba(11,18,32,0.04)   dark: none
+- shadow-overlay light: 0 12px 32px rgba(11,18,32,0.14), 0 2px 6px rgba(11,18,32,0.06)   dark: 0 16px 40px rgba(2,6,16,0.6)
+
+FONTS
+- Switzer (interface): install from fontshare.com — its licence forbids passing the font files to other people.
+- Courier Prime (screenplay) and Geist Mono (technical data): Google Fonts, OFL.
